@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Built Docker Images
+      - name: Build docker images
         run: docker build -t demo .
