@@ -1,0 +1,12 @@
+name: MY FIRST GITHUB ACTION
+
+on:
+  push:
+    branches:
+       - master
+
+jobs:
+  build:
+    steps:
+
+      - uses: actions/checkout@v2
